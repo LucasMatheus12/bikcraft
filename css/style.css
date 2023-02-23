@@ -1,0 +1,80 @@
+:root{
+    --c12: #000000;
+    --w: #FFFFFF;
+    --c11: #111111;
+    --c10:#2E2E2E; 
+}
+
+.header-bg{
+    background: var(--c12);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a {
+    color: var(--w);
+    display: inline-block;
+    padding: 16px 0px;  /*Necessário para melhorar o espaçamento do local do click, melhorando a usabilidade*/
+    font-size: 1.125rem;
+    position: relative;
+}
+
+.header-menu a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    margin-top: 4px;
+    background: var(--w);
+    transition: 0.3s;
+    position: absolute;
+}
+
+.header-menu a:hover:after{
+    width: 100%;
+}
+
+@media (max-width: 800px){
+    .header-menu{
+        gap:20px; 
+    }
+    .header-menu a {
+        background: var(--c11);
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+    .header-menu a:hover{
+        background: var(--c10);
+    }
+    .header a:after{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .header-menu{
+        gap:12px; 
+    }
+    .header-menu a {
+        background-color: var(--c11);
+        padding: 8px 12px;
+        font-size: 0.875rem;
+    }
+}
