@@ -1,5 +1,5 @@
-@import "./utilidades/cores.css";
 @import "./global/global.css";
+@import "./utilidades/cores.css";
 @import "./global/header.css";
 
 /* Utilidades */
@@ -8,3 +8,6 @@
 
 /* Introdução */
 @import "./introducao/introducao.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas-listas.css";

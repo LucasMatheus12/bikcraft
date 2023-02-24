@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--c1);
+  color: var(--c11);
 }
 
 a {
@@ -10,6 +10,8 @@ a {
 }
 
 h1,
+h2,
+h3,
 ul,
 p {
   margin: 0;
@@ -23,4 +25,9 @@ ul {
 img {
   max-width: 100%;
   display: block;
+  
+}
+
+[src$=".jpg"]{
+  border-radius: 4px;
 }
