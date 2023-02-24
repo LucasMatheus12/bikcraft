@@ -8,6 +8,6 @@
 
 /* Introdução */
 @import "./introducao/introducao.css";
-
+@import "introducao/tecnologia.css"; 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-listas.css";
