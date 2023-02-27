@@ -57,3 +57,29 @@
 .link:hover {
   color: var(--w);
 }
+
+
+/*titulos internos*/
+
+.titulo-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--c11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+
+@media (max-width:800px){
+  .titulo-bg{
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
