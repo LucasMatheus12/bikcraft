@@ -19,20 +19,22 @@
   --p1: #ffbb00;
 }
 
-
-.cor-w{
-    color: var(--w);
+.cor-w {
+  color: var(--w);
 }
 
-.cor-c5{
-    color: var(--c5);
+.cor-c5 {
+  color: var(--c5);
 }
-.cor-p1{
-    color: var(--p1);
+.cor-c6 {
+  color: var(--c6);
 }
-.cor-p5{
-    color: var(--p5);
+.cor-p1 {
+  color: var(--p1);
 }
-.cor-p4{
-    color: var(--p4);
+.cor-p5 {
+  color: var(--p5);
+}
+.cor-p4 {
+  color: var(--p4);
 }

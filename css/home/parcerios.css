@@ -48,12 +48,12 @@
     border-top: 2px solid var(--c2);
   }
 
-  .parceiros li:nth-child(odd) { /* Pega somente os itens impares*/
+  .parceiros li:nth-child(odd) {
+    /* Pega somente os itens impares*/
     border-left: none;
   }
 
-  .parceiros li{
+  .parceiros li {
     padding: 20px;
   }
 }
-

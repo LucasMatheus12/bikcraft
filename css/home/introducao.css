@@ -31,8 +31,6 @@
   color: var(--c5);
 }
 
-
-
 @media (max-width: 800px) {
   .introducao-bg {
     background: var(--c11);

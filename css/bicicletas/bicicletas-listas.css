@@ -1,64 +1,63 @@
 .bicicletas-listas {
-    padding-top: 60px;
-    padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .bicicletas-listas h2 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.bicicletas-listas ul{
-    display: flex;
-    gap: 40px;
-    padding: 0 20px 20px 20px;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: auto;
+.bicicletas-listas ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
 }
 
-.bicicletas-listas li{
-    flex: 1;
-    min-width: 280px;
+.bicicletas-listas li {
+  flex: 1;
+  min-width: 280px;
 }
-.bicicletas-listas a{
-    display: block;  /*Para selecionar todo o elemento*/
+.bicicletas-listas a {
+  display: block; /*Para selecionar todo o elemento*/
 }
 
 .bicicletas-listas img {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-.bicicletas-listas h3{
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
+.bicicletas-listas h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-.bicicletas-listas h3::before{
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 8px;
-    background: var(--p1);
-    margin-right: 8px;
-    transition: width 0.2s;
+.bicicletas-listas h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--p1);
+  margin-right: 8px;
+  transition: width 0.2s;
 }
 
-.bicicletas-listas a:hover h3::before{
-    width: 24px;
+.bicicletas-listas a:hover h3::before {
+  width: 24px;
 }
-.bicicletas-listas li span{
-    padding-left: 20px;
-    color: var(--c8);
+.bicicletas-listas li span {
+  padding-left: 20px;
+  color: var(--c8);
 }
 
-
-@media (max-width: 800px){
-    .bicicletas-listas{
-        padding-bottom: 60px;
-    }
-    .bicicletas-listas ul{
-        gap: 20px;
-    }
+@media (max-width: 800px) {
+  .bicicletas-listas {
+    padding-bottom: 60px;
+  }
+  .bicicletas-listas ul {
+    gap: 20px;
+  }
 }
