@@ -23,22 +23,25 @@
   color: var(--w);
 }
 
+.cor-c4 {
+  color: var(--c4);
+}
 .cor-c5 {
   color: var(--c5);
 }
 .cor-c6 {
   color: var(--c6);
 }
-.cor-c8{
+.cor-c8 {
   color: var(--c8);
 }
-.cor-c9{
+.cor-c9 {
   color: var(--c9);
 }
-.cor-c10{
+.cor-c10 {
   color: var(--c10);
 }
-.cor-c11{
+.cor-c11 {
   color: var(--c11);
 }
 .cor-p1 {
