@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seguros | Bikcradt</title>
-   <link rel="preload" href="./css/style.css" as="style">
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
-</head>
+
+
+    <script>document.documentElement.classList.add('js');</script>
 
 <body id="seguros">
 
@@ -40,8 +42,8 @@
         </div>
 
 
-        <div class="seguros container">
-            <div class="seguros-item">
+        <div class="seguros container fadeInLeft">
+            <div class="seguros-item" data-anime="200">
                 <h3 class="font-1-xl cor-c6">PRATA</h3>
                 <span class="font-1-xl cor-w">R$199 <span class="font-1-xs cor-c6">mensal</span></span>
                 <ul class="font-2-m cor-w">
@@ -53,7 +55,7 @@
                 <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
             </div>
 
-            <div class="seguros-item">
+            <div class="seguros-item fadeInRight" data-anime="400">
                 <h3 class="font-1-xl cor-p1">OURO</h3>
                 <span class="font-1-xl cor-w">R$299 <span class="font-1-xs cor-c6">mensal</span></span>
                 <ul class="font-2-m cor-w">
@@ -93,28 +95,32 @@
                     <img src="img/icones/sustentavel.svg" alt="">
                     <h3 class="font-1-l cor-w">Sustentável</h3>
                     <p class="font-2-s cor-c5">
-                        Trabalhamos com a filosofia de desperdício zero. Qualquer parte defeituosa é reciclada e reutilizada em outro projeto.
+                        Trabalhamos com a filosofia de desperdício zero. Qualquer parte defeituosa é reciclada e
+                        reutilizada em outro projeto.
                     </p>
                 </li>
                 <li>
                     <img src="img/icones/rastreador.svg" alt="">
                     <h3 class="font-1-l cor-w">Recuperação</h3>
                     <p class="font-2-s cor-c5">
-                       Utilizamos o GPS da sua Bikcraft em conjunto com especialista em segurança para efetuarmos a recuperação.
+                        Utilizamos o GPS da sua Bikcraft em conjunto com especialista em segurança para efetuarmos a
+                        recuperação.
                     </p>
                 </li>
                 <li>
                     <img src="img/icones/seguro.svg" alt="">
                     <h3 class="font-1-l cor-w">Segurança</h3>
                     <p class="font-2-s cor-c5">
-                        Com o seguro Bikcraft você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.
+                        Com o seguro Bikcraft você pode ficar tranquilo em saber que o seu dinheiro não será perdido em
+                        casos de roubo.
                     </p>
                 </li>
                 <li>
                     <img src="img/icones/velocidade.svg" alt="">
                     <h3 class="font-1-l cor-w">Rapidez</h3>
                     <p class="font-2-s cor-c5">
-                        A sua Bikcraft ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma das filiais.
+                        A sua Bikcraft ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma
+                        das filiais.
                     </p>
                 </li>
             </ul>
@@ -124,36 +130,50 @@
     <article class="perguntas container">
         <h2 class="font-1-xxl cor-c9">perguntas frequentes<span></h2>
 
-            <dl>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
-                    <dd class="font-2-s cor-c9 ativa" id="pergunta1" >Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta2" aria-expanded="false">Como posso entrar em contato?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta2">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="false">Vocês possuem algum desconto?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta3">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta4" aria-expanded="false">Qual a garantia que possuo?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta4">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="false">Posso parcelar no boleto?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta5">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt ><button class="font-1-m-b" aria-controls="pergunta6" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta6">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-                <div>
-                    <dt><button class="font-1-m-b" aria-controls="pergunta7" aria-expanded="false">Qual Bikcraft devo escolher para o meu tamanho?</button></dt>
-                    <dd class="font-2-s cor-c9" id="pergunta7">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
-                </div>
-            </dl>
+        <dl>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento
+                        vocês aceitam?</button></dt>
+                <dd class="font-2-s cor-c9 ativa" id="pergunta1">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta2" aria-expanded="false">Como posso entrar em
+                        contato?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta2">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="false">Vocês possuem algum
+                        desconto?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta3">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta4" aria-expanded="false">Qual a garantia que
+                        possuo?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta4">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="false">Posso parcelar no
+                        boleto?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta5">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta6" aria-expanded="false">Quantas trocas posso
+                        fazer ao ano?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta6">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+            <div>
+                <dt><button class="font-1-m-b" aria-controls="pergunta7" aria-expanded="false">Qual Bikcraft devo
+                        escolher para o meu tamanho?</button></dt>
+                <dd class="font-2-s cor-c9" id="pergunta7">Aceitamos pagamentos parcelados em todos os cartões de
+                    crédito. Para pagamentos à vista também aceitamos PIX e Boleto atravpes do PagSeguro.</dd>
+            </div>
+        </dl>
     </article>
     <footer class="footer-bg">
         <div class="footer container">
@@ -197,7 +217,8 @@
 
         </div>
     </footer>
-<script src="./js/index.js"></script>
+    <script src="./plugins/simple-anime.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
